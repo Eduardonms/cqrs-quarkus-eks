@@ -38,6 +38,3 @@ curl http://localhost:8081/balance\?accountId\=wesley | json_pp
 k6 run --vus 10 --duration 60s performance-tests/income.js
 k6 run --vus 10 --duration 60s performance-tests/expense.js
 ````
-
-### Contributing
-I'd love to have a frontend for it! [Please reach me out if you got interested](MailTo:wesley.fuchter@gmail.com)
